@@ -28,7 +28,8 @@ width: 150px;
         {{post.body}}
         {% for author in authors %}
             {% if post.author_id == author.id %}
-                <h2>{{author.name}}</h2>
+                <img src="{{author.avatar_url}}" />
+                <a href="#" >{{author.name}}</a>
             {% endif %}
         {% endfor %}
     </li>
