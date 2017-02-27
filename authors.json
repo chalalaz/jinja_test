@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Jason Bourne",
+        "role": "Registered user",
+        "place": "New York",
+        "avatar_url": "https://api.adorable.io/avatars/250/jason-bourne"
+    },
+    {
+        "id": 2,
+        "name": "Zlatan Ibrahimović",
+        "role": "Moderator",
+        "place": "Sweden",
+        "avatar_url": "https://api.adorable.io/avatars/250/zlatan"
+    },
+    {
+        "id": 3,
+        "name": "Mitsuha Miyamizu",
+        "role": "Moderator",
+        "place": "Itomori",
+        "avatar_url": "http://loremflickr.com/g/250/250/japan,girl/all"
+    },
+    {
+        "id": 4,
+        "name": "Harry Potter",
+        "role": "Admin",
+        "place": "Hogwarts",
+        "avatar_url": "https://api.adorable.io/avatars/250/harry"
+    },
+    {
+        "id": 5,
+        "name": "Linus Torvalds",
+        "role": "Registered user",
+        "place": "Oregon",
+        "avatar_url": "https://api.adorable.io/avatars/250/linus"
+    }
+]

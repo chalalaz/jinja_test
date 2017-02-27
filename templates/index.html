@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Proba</title>
+    <style>
+body {
+}
+
+h1 {
+    margin-left: 10px;
+}
+img {
+width: 150px;
+    height: auto;
+    }
+</style>
+</head>
+<body>
+<Left>
+    <h1>MAQE Forums</h1>
+    <h2>Subtitle</h2>
+    <h3>Posts</h3>
+</Left>
+<ul>{% for post in posts %}
+    <li>
+       <img src="{{post.image_url}}" />
+        {{post.body}}
+        {% for author in authors %}
+            {% if post.author_id == author.id %}
+                <h2>{{author.name}}</h2>
+            {% endif %}
+        {% endfor %}
+    </li>
+    {% endfor %}
+</ul>
+</body>
+</html>
